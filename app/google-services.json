@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "613224877578",
+    "project_id": "campus-eats-b57d9",
+    "storage_bucket": "campus-eats-b57d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613224877578:android:8e1e54ce7abf28cac459f3",
+        "android_client_info": {
+          "package_name": "com.example.campus_eats"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaRQioDwRrrN_jEC3_GbbBRvk-N4U7CRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Campus_Eats</string>
+    <string name="campus">Campus</string>
+    <string name="eats">Eats</string>
+    <string name="login_to_your_account">Login to Your Account</string>
+    <string name="trojan_logo">Trojan Logo</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="new_user_sign_up">New User? Sign Up</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="get_started">Get Started</string>
+    <string name="discover_dine_and_n_delight_with_ease">Discover, Dine, and \n Delight with Ease</string>
+
+
+</resources>
