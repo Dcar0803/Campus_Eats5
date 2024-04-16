@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.campus_eats.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+
+        <!-- Define action to navigate to JonesFragment -->
+        <action
+            android:id="@+id/action_homeFragment_to_jonesFragment"
+            app:destination="@id/jonesFragment" />
+
+        <!-- Define action to navigate to GatewayFragment -->
+        <action
+            android:id="@+id/action_homeFragment_to_gatewayFragment"
+            app:destination="@id/gatewayFragment" />
+
+        <!-- Define action to navigate to LocationFragment -->
+        <action
+            android:id="@+id/action_homeFragment_to_locationFragment"
+            app:destination="@id/locationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/jonesFragment"
+        android:name="com.example.campus_eats.JonesFragment"
+        android:label="fragment_jones"
+        tools:layout="@layout/fragment_jones" />
+
+    <fragment
+        android:id="@+id/gatewayFragment"
+        android:name="com.example.campus_eats.GatewayFragment"
+        android:label="fragment_gateway"
+        tools:layout="@layout/fragment_gateway" />
+
+    <fragment
+        android:id="@+id/locationFragment"
+        android:name="com.example.campus_eats.LocationsFragment"
+        android:label="fragment_location"
+        tools:layout="@layout/fragment_locations" />
+
+</navigation>
