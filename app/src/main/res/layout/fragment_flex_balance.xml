@@ -1,19 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FlexBalanceFragment">
+    android:orientation="vertical"
+    android:padding="16dp">
 
-    <!-- TODO: Update blank fragment layout -->
-
+    <!-- TextView to display overall balance -->
     <TextView
-        android:layout_width="248dp"
-        android:layout_height="36dp"
-        android:text="This is the Flex Nb" />
+        android:id="@+id/textViewOverallBalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Overall Flex Dollars Balance:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
 
+    <!-- TextView to display overall balance value -->
+    <TextView
+        android:id="@+id/textViewBalanceValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your balance: $500"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"/>
 
+    <!-- TextView to display transaction history title -->
+    <TextView
+        android:id="@+id/textViewTransactionHistoryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transaction History"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
 
+    <!-- RecyclerView to display transaction history -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewTransactionHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
-</FrameLayout>
+</LinearLayout>
